@@ -13,10 +13,9 @@ int restar(int a, int b) {
 }
 
 /* ── multiplicar — implementar en feature/mi-funcion ─────────────────────── */
-
+// funcion multiplicar que hace uso de las operaciones standar de C, haciendo que 2 variables enteras (a, b) sean multiplicadas con *
 int multiplicar(int a, int b) {
-    (void)a; (void)b;
-    return 0; /* TODO: implementar */
+    return a * b;
 }
 
 /* ── esPar ────────────────────────────────────────────────────────────────── */
